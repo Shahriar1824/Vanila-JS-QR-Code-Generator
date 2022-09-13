@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Generate a QR code image to point to a website URL"
+      content="Generate a QR code image to point to a website URL or Text"
     />
     <meta
       name="keywords"
@@ -19,6 +19,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Github Ribbon Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -42,11 +46,16 @@
       #spinner {
         display: none;
       }
+
     </style>
   </head>
   <body>
+    <!-- Github Ribbon -->
+    <a class="github-fork-ribbon" href="https://github.com/Shahriar1824/Vanila-JS-QR-Code-Generator" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+
     <header class="bg-orange-500 p-4 mb-10 text-center">
-      <div class="max-w-5xl m-auto">
+    
+      <div class="max-w-5xl w-4/5 m-auto">
         <div class="text-xl font-bold text-white">QR Code Generator</div>
       </div>
     </header>
